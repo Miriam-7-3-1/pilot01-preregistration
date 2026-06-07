@@ -1,0 +1,25 @@
+{
+  "run_dir": "run_merged_20260607-005923",
+  "created": "2026-06-07T00:59:23",
+  "global_seed": 12345,
+  "smoke_test": false,
+  "n_runs": 1482,
+  "files": {
+    "raw_runs.jsonl": {
+      "sha256": "312ac828c90f40724f918a39eee99be93c69b9db24a27a1e9d84d0d0807b884c",
+      "bytes": 4016526
+    },
+    "coding_sheet.csv": {
+      "sha256": "c88f4ea2229358a7cff3d6de130b321ea679f28d16ea8e98ab7b3b097e1765bf",
+      "bytes": 250994
+    },
+    "coding_key.csv": {
+      "sha256": "3735b10fa168c069896f6fc61ded5fb674a8f5f4fcc4921ab7adff9962392cc4",
+      "bytes": 140270
+    },
+    "secondary_entropy.csv": {
+      "sha256": "33ddb6b86e474a20a83e344f773da4331593509a2fc02e278499e4246d366fbf",
+      "bytes": 102964
+    }
+  }
+}
