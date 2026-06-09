@@ -52,3 +52,20 @@ und die Ergebnisse mit den hier hinterlegten Werten vergleichen.
 > **Wichtig:** Dieses Repository enthält bewusst **keine** Originaldaten, keine
 > Modellnamen und keine Zugangsdaten — nur Prüfsummen. Die Originaldateien werden
 > erst nach Abschluss der Kodierung offengelegt.
+
+## Abschluss-Nachweis: Festschreibung der fertigen Kodierung
+
+Nach **Abschluss der Blind-Kodierung** wird der kryptografische Fingerabdruck der
+**fertig kodierten** `coding_sheet.csv` ebenfalls datiert festgeschrieben (siehe
+[`coding_sheet.completed.sha256`](coding_sheet.completed.sha256) und den
+zugehörigen Git-Tag/Release `coding-completed-2026-06-09`).
+
+Dieser zweite Hash unterscheidet sich vom oben präregistrierten Wert — das ist
+beabsichtigt: Der Vorab-Hash belegt, **welche Antwortdaten** kodiert wurden; der
+Abschluss-Hash legt das **Kodier-Ergebnis** fest und macht jede spätere Änderung
+der kodierten Datei nachweisbar.
+
+| Datei | Zeitpunkt | SHA-256 |
+|-------|-----------|---------|
+| `coding_sheet.csv` (vor Kodierung) | präregistriert | `c88f4ea2229358a7cff3d6de130b321ea679f28d16ea8e98ab7b3b097e1765bf` |
+| `coding_sheet.csv` (fertig kodiert) | nach Abschluss | `871fca65ead199db7f2e0e1fd3ea6c51882f1415fc6e14c7db7464df065fdc17` |
